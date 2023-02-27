@@ -1,0 +1,49 @@
+.rodape{
+    background-color: var(--cor-principal);
+    color: var(--fonteColor-secundaria);
+    display: flex;
+    justify-content: center;
+}
+.rodape .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.rodape h3{
+    margin-bottom: 20px;
+}
+.rodape__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+}
+ .contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom:8px;
+    border-bottom: 1px solid #afafaf;
+
+}
+.contato__redes_sociais{
+    display: flex;
+    gap: 50px;
+}
+.contato__redes_sociais img{
+    width: 40px;
+    height: 40px;  
+}
+@media screen and (min-width:600px) {
+
+    .rodape .container{
+        width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly
+   
+}
+
+}
